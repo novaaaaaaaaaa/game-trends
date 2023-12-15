@@ -1,0 +1,35 @@
+.flex-container{
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-sp-1{flex: 14.285714%;}
+.col-sp-2{flex: 28.571429%;}
+.col-sp-3{flex: 42.857143%;}
+.col-sp-4{flex: 57.142858%;}
+.col-sp-5{flex: 71.428571%;}
+.col-sp-6{flex: 85.714286%;}
+.col-sp-7{flex: 100%;}
+
+#game_trends_logo {
+    height: 140px;
+    width: 500px;
+}
+
+#user_image {
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.header_container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
