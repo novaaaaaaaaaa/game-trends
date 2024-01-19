@@ -1,3 +1,13 @@
+* {
+    overflow: hidden;
+}
+
+html {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 .flex-container{
     display: flex;
     background-color: #000000;
@@ -7,13 +17,13 @@
     align-items: center;
 }
 
-.col-sp-1{flex: 14.285714%;}
-.col-sp-2{flex: 28.571429%;}
-.col-sp-3{flex: 42.857143%;}
-.col-sp-4{flex: 57.142858%;}
-.col-sp-5{flex: 71.428571%;}
-.col-sp-6{flex: 85.714286%;}
-.col-sp-7{flex: 100%;}
+#logo_contain {
+    flex: 30%;
+}
+
+#profile_icon_contain {
+    width: 100px;
+}
 
 #game_trends_logo {
     height: 140px;
@@ -24,12 +34,12 @@
     height: 70px;
     width: 70px;
     border-radius: 40px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    /* margin-bottom: 20px;
+    margin-left: 20px; */
 }
 
 .header_container{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }

@@ -15,11 +15,11 @@
     <div class="header_container">
         <div class="flex-container">
 
-            <div class="col-sp-1"></div>
+            <div style="width: 100px;">&nbsp;</div>
 
-            <div class="col-sp-5"><img src="{% static 'images/game-trends-logo.png' %}" alt="" id="game_trends_logo"></div>
+            <div id="logo_contain"><img src="{% static 'images/game-trends-logo.png' %}" alt="" id="game_trends_logo"></div>
 
-            <div class="col-sp-1"><img src="{% static 'images/download_user.png' %}" alt="" id="user_image"></div>
+            <div id="profile_icon_contain"><a href="{% url 'main:profile' %}"><img src="{% static 'images/download_user.png' %}" alt="" id="user_image"></a></div>
 
         </div>
     </div>
