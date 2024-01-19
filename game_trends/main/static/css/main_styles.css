@@ -17,13 +17,15 @@ h1 {
     width: 200px;
     height: 40px;
 }
+*/
 
 p {
     background-color: 000000;
     text-align: left;
     margin-left: 2%;
-    
-} */
+    color: #FFFFFF;
+
+} 
 
 button {
     background-color: 000000;
