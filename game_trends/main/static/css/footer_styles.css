@@ -3,6 +3,7 @@
 #footer {
     background-color: #2a2a2a;
     display:flex;
+    padding:3%;
 }
 
 #footer > div{
