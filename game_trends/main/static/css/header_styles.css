@@ -12,7 +12,7 @@ html {
     display: flex;
     background-color: #000000;
     color: #ffffff;
-    height: 140px;
+    height: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -22,17 +22,17 @@ html {
 }
 
 #profile_icon_contain {
-    width: 100px;
+    width: 50px;
 }
 
 #game_trends_logo {
-    height: 140px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
 }
 
 #user_image {
-    height: 70px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
     border-radius: 40px;
     /* margin-bottom: 20px;
     margin-left: 20px; */
