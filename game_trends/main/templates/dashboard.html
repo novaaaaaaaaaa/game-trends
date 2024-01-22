@@ -15,15 +15,27 @@
 
     {% include 'header.html' %}
 
-    <main>
+    <div style="height: 560px; background-color: #2a2a2a;">
+    
+        <div id="recently_played">
 
-        <div style="height: 560px;"></div>
+            <img class="arrow" src="{% static 'images/left-arrow.png' %}" alt="">
 
-        <h1>Recently Played</h1>
-        <h1>Active Friends</h1>
-        <h1>Popular games</h1>
+            <img class="image" src="{% static 'images/placeholder_image.png' %}" alt="">
 
-    </main>
+            <img class="image" src="{% static 'images/placeholder_image.png' %}" alt="">
+
+            <img class="image" src="{% static 'images/placeholder_image.png' %}" alt="">
+
+            <img class="arrow" src="{% static 'images/right-arrow.png' %}" alt="">
+
+        </div>
+
+        <div id="active_friends">&nbsp;</div>
+
+        <div id="popular_games">&nbsp;</div>
+        
+    </div>
 
     {% include 'footer.html' %}
     
