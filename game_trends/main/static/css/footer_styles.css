@@ -1,5 +1,10 @@
 /*Footer css*/
 
-footer {
+#footer {
     background-color: #2a2a2a;
+    display:flex;
+}
+
+#footer > div{
+    flex-grow: 1;
 }
