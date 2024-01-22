@@ -15,9 +15,10 @@
     
     <div id="main_container">
 
-        <i class="fa-solid fa-house" style="color: #48ff00;" href="dashboard" ></i>
-        <i class="fa-solid fa-user-group" style="color: #48ff00;" href="friends"></i>
-        <i class="fa-solid fa-gamepad" style="color: #48ff00;" href="games"></i>
+        <i a href="{% url 'main:dashboard' %}" class="fa-solid fa-house" style="color: #48ff00;"></a></i>
+        <i a href="{% url 'main:friends' %}" class="fa-solid fa-user-group" style="color: #48ff00;" href="friends"></a></i>
+        <i a href="{% url 'main:games' %}" class="fa-solid fa-gamepad" style="color: #48ff00;" href="games"></a></i>
+
 
         
 

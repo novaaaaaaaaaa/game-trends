@@ -1,5 +1,5 @@
 * {
-    width: 400px;
+    /*width: 400px;*/
     /* Make total height consistent to 700px */
 }
 
@@ -35,4 +35,8 @@ p {
 button {
     background-color: 000000;
     text-align:left;
+}
+
+#profile-input {
+    display:inline;
 }
